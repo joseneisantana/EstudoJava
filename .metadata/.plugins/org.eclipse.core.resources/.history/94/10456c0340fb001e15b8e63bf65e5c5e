@@ -1,0 +1,18 @@
+package abstratas.classes;
+
+public class Comissionado extends Empregado{
+
+	private double totalVenda;
+	private double totalcomissao;
+	
+	
+	@Override
+	public Double vencimento() {
+		// TODO Auto-generated method stub
+		return totalVenda*totalcomissao;
+	}
+	
+
+	
+	
+}

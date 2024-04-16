@@ -1,0 +1,18 @@
+package abstratas.classes;
+
+public class Horista extends Empregado {
+	
+	
+	private  Double precoDaHora;
+	
+	private  Double TotalHoraTrabalhada;
+
+	@Override
+	public Double vencimento() {
+		// TODO Auto-generated method stub
+		return precoDaHora*TotalHoraTrabalhada;
+	}
+	
+	
+
+}

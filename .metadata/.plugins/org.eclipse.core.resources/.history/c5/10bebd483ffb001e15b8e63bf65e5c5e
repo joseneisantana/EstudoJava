@@ -1,0 +1,15 @@
+package abstratas.classes;
+
+public class Assalariado  extends Empregado {
+
+	private Double salario;
+
+	@Override
+	public Double vencimento() {
+		// TODO Auto-generated method stub
+		return salario;
+	}
+	
+	
+	
+}

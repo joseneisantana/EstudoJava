@@ -1,0 +1,16 @@
+package abstratas.classes;
+
+public class Programa {
+
+	public static void main(String[] args) {
+		
+		Assalariado empregado = new Assalariado();
+		empregado.setCpf("1");
+		empregado.setNome("Brandon");
+		empregado.setSobrenome("Covenat");
+		empregado.setSalario(100d);
+		
+		System.out.println(empregado.getNome()+"Tem de salario :"+ empregado.vencimento()); 
+	}
+
+}

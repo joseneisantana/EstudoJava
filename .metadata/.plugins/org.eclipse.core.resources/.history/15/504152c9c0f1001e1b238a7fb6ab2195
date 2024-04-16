@@ -1,0 +1,29 @@
+
+public class Trabalho_Ebac {
+
+	import java.util.Scanner;
+	
+	public static void main(String[] args) {
+		
+		double matematicaNota1 = 10;
+		double  matematicaNota2 = 9;
+		double  matematicaNota3 = 8;
+		double  matematicaNota4 = 7 ;
+		
+		double mediaMatematica =  (matematicaNota1 + matematicaNota2 + matematicaNota3 + matematicaNota4) / 4;
+		
+	
+		
+		if(mediaMatematica  >= 7) {
+			System.out.println("Foi aprovado"+" "+ mediaMatematica);
+			
+			}else if (mediaMatematica < 7 && mediaMatematica >= 5 ) {
+				System.out.println("Recuperação"+" "+ mediaMatematica);
+				
+			}else {
+			System.out.println("Reprovado !" +" "+ mediaMatematica);
+		}
+		
+	}
+
+}
